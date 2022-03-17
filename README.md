@@ -1,0 +1,2 @@
+# lab6
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/462f97fb802248e39b3bb3a08f55dad7)](https://app.codacy.com/gh/EstebananoT/lab6?utm_source=github.com&utm_medium=referral&utm_content=EstebananoT/lab6&utm_campaign=Badge_Grade_Settings)
