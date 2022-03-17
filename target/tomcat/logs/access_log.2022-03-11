@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [11/Mar/2022:23:49:54 -0500] "GET /SampleServlet HTTP/1.1" 404 977 http-bio-8080-exec-2 51
+0:0:0:0:0:0:0:1 - - [11/Mar/2022:23:49:54 -0500] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [11/Mar/2022:23:50:09 -0500] "GET /helloServlet HTTP/1.1" 200 16 http-bio-8080-exec-4 3
+0:0:0:0:0:0:0:1 - - [11/Mar/2022:23:53:36 -0500] "GET /helloServlet?name=%20Estebananito HTTP/1.1" 200 30 http-bio-8080-exec-6 1
