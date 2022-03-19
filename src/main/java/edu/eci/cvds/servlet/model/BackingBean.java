@@ -29,6 +29,12 @@ public class BackingBean {
     }
 
     public void guess(int intento){
+        intentos.add(intento);
+        if(intento!=numeroAleatorio){
+            premioAcumulado-=10000;
+        }
+        else{
+            estado = "gana";
         if(premioAcumulado > 0){
             intentos.add(intento);
             if(intento != numeroAleatorio){
