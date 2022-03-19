@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="app-web" />
-        <module name="lab6" />
       </profile>
     </annotationProcessing>
   </component>

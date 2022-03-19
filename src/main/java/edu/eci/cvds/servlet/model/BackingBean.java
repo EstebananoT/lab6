@@ -25,15 +25,18 @@ public class BackingBean {
         numeroAleatorio = r.nextInt(11);
         intentos = new ArrayList<>();
         premioAcumulado = 100000;
-        estado = "no gana";
+        estado = "No gana";
     }
+
     public void guess(int intento){
-        intentos.add(intento);
-        if(intento!=numeroAleatorio){
-            premioAcumulado-=10000;
-        }
-        else{
-            estado = "gana";
+        if(premioAcumulado > 0){
+            intentos.add(intento);
+            if(intento != numeroAleatorio){
+                premioAcumulado -= 10000;
+            }
+            else{
+                estado = "Gana!";
+            }
         }
     }
 
@@ -41,6 +44,7 @@ public class BackingBean {
     public ArrayList<Integer> getIntentos() {
         return intentos;
     }
+
     public void setIntentos(ArrayList<Integer> intentos) {
         this.intentos = intentos;
     }
